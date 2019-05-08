@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="25dp">
+
+<ImageView
+    android:id="@+id/poster"
+    android:src="@drawable/afis"
+    android:layout_width="160dp"
+    android:layout_height="227dp" />
+<LinearLayout
+    android:layout_width="160dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1998"
+        android:layout_marginRight="50dp"/>
+    <TextView
+        android:id="@+id/puan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"/>
+</LinearLayout>
+<TextView
+    android:id="@+id/isim"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:textSize="22dp"
+    android:text="Müslüm"/>
+</LinearLayout>
